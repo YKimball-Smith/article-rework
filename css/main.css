@@ -31,10 +31,11 @@ body {
 
 header {
   padding-top: 3.5%;
+  align-content: center;
 }
 
 header h1 {
-  font-family: "Times New Roman", serif;
+  font-family: Roboto, serif;
   font-size: 2.5em;
   font-weight: normal;
   word-spacing: -.075em;
@@ -43,7 +44,7 @@ header h1 {
 }
 
 header p.summary {
-  font-family: "Times New Roman", serif;
+  font-family: Roboto, serif;
   font-size: 1.25em;
 }
 
@@ -148,18 +149,18 @@ p.byline {
 }
 
 a {
-  color: #326891;
+  color: #2e8d72;
 }
 
 a:hover {
-  color: #000;
-  background-color: #fcf3d8;
+  color: #65190f;
+  background-color: #EBDEA5;
 }
 
 a:focus,
 a:active {
   color: #000;
-  background-color: #f9e7b4;
+  background-color: #EBDEA5;
 }
 
 a.read-more::after {
