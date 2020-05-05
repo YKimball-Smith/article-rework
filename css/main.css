@@ -41,11 +41,13 @@ header h1 {
   word-spacing: -.075em;
   margin-top: 0;
   margin-bottom: 0;
+  align-content: center;
 }
 
 header p.summary {
   font-family: Roboto, serif;
   font-size: 1.25em;
+  align-content: center;
 }
 
 header p.summary strong {
@@ -66,6 +68,7 @@ main,
 nav,
 section {
   padding-top: 1rem;
+  align-content: center;
 }
 
 main {
@@ -149,11 +152,11 @@ p.byline {
 }
 
 a {
-  color: #2e8d72;
+  color: #65190f;
 }
 
 a:hover {
-  color: #65190f;
+  color: #2e8d72;
   background-color: #EBDEA5;
 }
 
